@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <h2 id="result"></h2>
+    <form action="" method="POST">
+      <!-- Selecting players -->
+      <label for="cars">Players:</label><br />
+      <select name="player" id="player">
+        <option value="2">Friend</option>
+        <option value="3">Computer</option>
+      </select>
+      <!-- Selecting symbols -->
+      <p>Select the Symbol</p>
+      <input type="radio" name="symbol" value="X" />
+      <label for="x_id">X</label><br />
+      <input type="radio" name="symbol" value="O" />
+      <label for="o_id">O</label><br />
+      <input type="reset" id="reset" value="reset" />
+    </form>
+    <button value="submit" id="submit" onclick="start()">Submit</button>
+
+    <div id="container">
+      <button class="square" id="square1" value="1"></button>
+      <button class="square" id="square2" value="2"></button>
+      <button class="square" id="square3" value="3"></button>
+      <br />
+      <button class="square" id="square4" value="4"></button>
+      <button class="square" id="square5" value="5"></button>
+      <button class="square" id="square6" value="6"></button>
+      <br />
+      <button class="square" id="square7" value="7"></button>
+      <button class="square" id="square8" value="8"></button>
+      <button class="square" id="square9" value="9"></button>
+    </div>
+    <h1 id="status"></h1>
+    <button id="restart" onclick="restart()">Restart</button>
+    <script src="./playground.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+Assignment details are given below-
+Create Tic-Tac-Toe game in RAW / Vanilla JavaScript where 2 players can play and put values in the boxes.. either using mouse or buttons.
+The final result should be stored in the local storage.
+When the user re-opens or comes back to play game you will first show him the past match leader board and then he can play current match
+Try to make the game automated by making second player as computer which can play with 1 player.
+Note - Mandatory to use methods like document.getelementsbyid or getelementbyclass etc while developing it!
+Estimated Time - 3 Hours
+Technologies to use - HTML, CSS, Java Script
+Note - do not use React js, Angular js , node js etc, use only js.
